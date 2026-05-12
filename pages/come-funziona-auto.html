@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Come Funziona l'Auto — Newborn Pilot</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/come-funziona-auto.css">
+
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="../index.php" class="nav-logo"><i class="fas fa-car-side"></i><span>Newborn<strong>Pilot</strong></span></a>
+            <div class="nav-menu" id="navMenu">
+                <a href="../index.php" class="nav-link">Home</a>
+                <div class="nav-dropdown">
+                    <a href="#" class="nav-link dropdown-toggle">Patente <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="patente-teoria.html"><i class="fas fa-book"></i> Teoria</a>
+                        <a href="patente-pratica.html"><i class="fas fa-car"></i> Pratica</a>
+                    </div>
+                </div>
+                <a href="come-funziona-auto.html" class="nav-link active">Come Funziona l'Auto</a>
+                <a href="manutenzione.html" class="nav-link">Manutenzione</a>
+                <a href="tutorial.html" class="nav-link">Tutorial</a>
+                <a href="acquisto.php" class="nav-link">Acquisto Auto</a>
+                <a href="assicurazione.html" class="nav-link">Assicurazione</a>
+                <a href="multe.html" class="nav-link">Multe</a>
+                <a href="curiosita.html" class="nav-link">Curiosità</a>
+                <a href="risorse.html" class="nav-link">Risorse</a>
+            </div>
+            <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
+        </div>
+    </nav>
+
+    <header class="page-hero">
+        <div class="page-hero-content">
+            <div class="breadcrumb"><a href="../index.php">Home</a><i class="fas fa-chevron-right"></i><span>Come Funziona l'Auto</span></div>
+            <div class="page-hero-badge"><span class="section-number-badge">Sezione 03</span></div>
+            <h1><i class="fas fa-cogs"></i> Come Funziona <span class="gradient-text">l'Auto</span></h1>
+            <p>Capire la tua auto senza bisogno di una laurea in ingegneria</p>
+        </div>
+    </header>
+
+    <main class="page-content">
+        <div class="container">
+            <div class="content-layout">
+                <aside class="content-sidebar">
+                    <div class="sidebar-nav sticky-sidebar">
+                        <h4><i class="fas fa-bookmark"></i> Indice</h4>
+                        <ul>
+                            <li><a href="#motore" class="sidebar-link active">3.1 — Il Motore</a></li>
+                            <li><a href="#trasmissione" class="sidebar-link">3.2 — La Trasmissione</a></li>
+                            <li><a href="#freni" class="sidebar-link">3.3 — Impianto Frenante</a></li>
+                            <li><a href="#sospensioni" class="sidebar-link">3.4 — Le Sospensioni</a></li>
+                            <li><a href="#pneumatici" class="sidebar-link">3.5 — Gli Pneumatici</a></li>
+                            <li><a href="#cruscotto" class="sidebar-link">3.6 — Il Cruscotto</a></li>
+                        </ul>
+                    </div>
+                </aside>
+
+                <div class="content-main">
+                    <div class="content-intro">
+                        <div class="info-box info-blue">
+                            <i class="fas fa-info-circle"></i>
+                            <p>Non devi diventare un meccanico, ma capire le basi di come funziona la tua auto ti rende un <strong>guidatore migliore</strong>, ti fa risparmiare soldi e ti evita fregature dal meccanico.</p>
+                        </div>
+                    </div>
+
+                    <!-- 3.1 Motore -->
+                    <section id="motore" class="content-section">
+                        <h2><span class="section-num">3.1</span> Il motore: il cuore dell'auto</h2>
+
+                        <h3>Motore a combustione interna (benzina/diesel)</h3>
+                        <p>Il principio è semplice: il carburante viene miscelato con l'aria, compresso in un cilindro e acceso. L'esplosione spinge un pistone che fa girare l'albero motore, trasmettendo il movimento alle ruote.</p>
+
+                        <div class="four-steps">
+                            <div class="step-card">
+                                <div class="step-number">1</div>
+                                <h4>Aspirazione</h4>
+                                <p>Il pistone scende, entra la miscela aria-carburante.</p>
+                            </div>
+                            <div class="step-card">
+                                <div class="step-number">2</div>
+                                <h4>Compressione</h4>
+                                <p>Il pistone sale, comprime la miscela.</p>
+                            </div>
+                            <div class="step-card">
+                                <div class="step-number">3</div>
+                                <h4>Scoppio</h4>
+                                <p>La miscela si accende, il pistone viene spinto in basso con forza.</p>
+                            </div>
+                            <div class="step-card">
+                                <div class="step-number">4</div>
+                                <h4>Scarico</h4>
+                                <p>Il pistone risale, espelle i gas combusti.</p>
+                            </div>
+                        </div>
+
+                        <h3>Motore elettrico</h3>
+                        <p>Nessuna combustione. Converte l'energia della batteria in movimento tramite campi elettromagnetici. È più semplice, più silenzioso, ha <strong>coppia immediata</strong> e richiede molta meno manutenzione.</p>
+
+                        <h3>Motore ibrido</h3>
+                        <div class="info-cards-grid three-col">
+                            <div class="info-card">
+                                <div class="info-card-header"><h4>Mild Hybrid (MHEV)</h4></div>
+                                <p>Il motore elettrico assiste quello termico ma <strong>non può muovere l'auto da solo</strong>.</p>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-card-header"><h4>Full Hybrid (HEV)</h4></div>
+                                <p>Può muoversi in elettrico per <strong>brevi tratti a bassa velocità</strong>.</p>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-card-header"><h4>Plug-in Hybrid (PHEV)</h4></div>
+                                <p>Batteria ricaricabile dalla presa, autonomia elettrica di <strong>40-80 km</strong>.</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- 3.2 -->
+                    <section id="trasmissione" class="content-section">
+                        <h2><span class="section-num">3.2</span> La trasmissione: dal motore alle ruote</h2>
+                        <div class="comparison-grid">
+                            <div class="comparison-card">
+                                <div class="comparison-header autoscuola"><h3><i class="fas fa-hand-paper"></i> Cambio Manuale</h3></div>
+                                <div class="comparison-body">
+                                    <p>Sei tu a selezionare le marce tramite la leva e la frizione. Più controllo, più coinvolgimento, ma richiede pratica.</p>
+                                </div>
+                            </div>
+                            <div class="comparison-card">
+                                <div class="comparison-header privatista"><h3><i class="fas fa-robot"></i> Cambio Automatico</h3></div>
+                                <div class="comparison-body">
+                                    <p>La centralina seleziona la marcia giusta. Più comodo, soprattutto nel traffico. Tipologie: convertitore di coppia, doppia frizione (DSG/DCT), CVT.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info-box info-yellow">
+                            <i class="fas fa-road"></i>
+                            <p><strong>Trazione:</strong> anteriore (la più comune, economica e stabile), posteriore, o integrale (ideale per fondi scivolosi o fuoristrada).</p>
+                        </div>
+                    </section>
+
+                    <!-- 3.3 -->
+                    <section id="freni" class="content-section">
+                        <h2><span class="section-num">3.3</span> Impianto frenante</h2>
+                        <div class="tech-grid">
+                            <div class="tech-card">
+                                <i class="fas fa-compact-disc"></i>
+                                <h4>Freni a disco</h4>
+                                <p>Un disco metallico ruota con la ruota; le pastiglie lo stringono per generare attrito e rallentare.</p>
+                            </div>
+                            <div class="tech-card">
+                                <i class="fas fa-drum"></i>
+                                <h4>Freni a tamburo</h4>
+                                <p>Ceppi che si espandono contro un tamburo dall'interno. Ancora presenti su alcune auto economiche al posteriore.</p>
+                            </div>
+                            <div class="tech-card">
+                                <i class="fas fa-shield-alt"></i>
+                                <h4>ABS</h4>
+                                <p>Impedisce il bloccaggio delle ruote in frenata, permettendo il controllo dello sterzo anche in emergenza.</p>
+                            </div>
+                            <div class="tech-card">
+                                <i class="fas fa-balance-scale"></i>
+                                <h4>EBD</h4>
+                                <p>Distribuisce la forza frenante tra le ruote in base al carico.</p>
+                            </div>
+                            <div class="tech-card">
+                                <i class="fas fa-life-ring"></i>
+                                <h4>ESP/ESC</h4>
+                                <p>Rileva e corregge le sbandate agendo su freni e motore.</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- 3.4 -->
+                    <section id="sospensioni" class="content-section">
+                        <h2><span class="section-num">3.4</span> Le sospensioni</h2>
+                        <p>Collegano le ruote al telaio e assorbono le irregolarità della strada. Composte da <strong>molle</strong> e <strong>ammortizzatori</strong>.</p>
+                        <div class="two-col-boxes">
+                            <div class="col-box success">
+                                <h4><i class="fas fa-check-circle"></i> In buono stato</h4>
+                                <p>Comfort, tenuta di strada e sicurezza.</p>
+                            </div>
+                            <div class="col-box danger">
+                                <h4><i class="fas fa-times-circle"></i> Usurate</h4>
+                                <p>Rimbalzi, instabilità in curva e spazi di frenata più lunghi.</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- 3.5 -->
+                    <section id="pneumatici" class="content-section">
+                        <h2><span class="section-num">3.5</span> Gli pneumatici</h2>
+                        <div class="highlight-box">
+                            <p>Sono l'<strong>unico punto di contatto</strong> tra l'auto e la strada. La loro importanza è enorme.</p>
+                        </div>
+                        <ul class="detail-list styled">
+                            <li><strong>Battistrada:</strong> limite legale 1,6 mm, ma sotto i 3 mm le prestazioni calano drasticamente su bagnato.</li>
+                            <li><strong>Pressione:</strong> controllare almeno 1 volta al mese a gomme fredde. Valori indicati sul montante portiera lato guida.</li>
+                            <li><strong>Tipologie:</strong> estivi, invernali, 4 stagioni. Dal 15 nov al 15 apr: obbligatori invernali o catene a bordo.</li>
+                            <li><strong>DOT:</strong> codice che indica settimana e anno di produzione. Oltre 5-6 anni → sostituire anche se sembrano buoni.</li>
+                        </ul>
+                    </section>
+
+                    <!-- 3.6 -->
+                    <section id="cruscotto" class="content-section">
+                        <h2><span class="section-num">3.6</span> Il cruscotto: spie e indicatori</h2>
+                        <p>Il cruscotto è il pannello di comunicazione della tua auto. Impara a leggere le spie principali:</p>
+
+                        <div class="spie-grid">
+                            <div class="spia-card spia-red">
+                                <div class="spia-icon">🔴</div>
+                                <div class="spia-content">
+                                    <h4>Spia olio motore</h4>
+                                    <p>Pressione olio insufficiente. <strong>Ferma l'auto immediatamente</strong> e controlla il livello dell'olio.</p>
+                                </div>
+                            </div>
+                            <div class="spia-card spia-red">
+                                <div class="spia-icon">🔴</div>
+                                <div class="spia-content">
+                                    <h4>Spia temperatura motore</h4>
+                                    <p>Il motore si sta surriscaldando. <strong>Accosta e spegni.</strong></p>
+                                </div>
+                            </div>
+                            <div class="spia-card spia-red">
+                                <div class="spia-icon">🔴</div>
+                                <div class="spia-content">
+                                    <h4>Spia batteria</h4>
+                                    <p>Problema all'alternatore. L'auto potrebbe spegnersi a breve.</p>
+                                </div>
+                            </div>
+                            <div class="spia-card spia-yellow">
+                                <div class="spia-icon">🟡</div>
+                                <div class="spia-content">
+                                    <h4>Check engine</h4>
+                                    <p>Anomalia nel sistema motore. Non è emergenza, ma va diagnosticata.</p>
+                                </div>
+                            </div>
+                            <div class="spia-card spia-yellow">
+                                <div class="spia-icon">🟡</div>
+                                <div class="spia-content">
+                                    <h4>Spia ABS</h4>
+                                    <p>ABS non funzionante. I freni funzionano ancora, ma senza anti-bloccaggio.</p>
+                                </div>
+                            </div>
+                            <div class="spia-card spia-yellow">
+                                <div class="spia-icon">🟡</div>
+                                <div class="spia-content">
+                                    <h4>Pressione pneumatici</h4>
+                                    <p>Uno o più pneumatici con pressione anomala. Controlla e gonfia.</p>
+                                </div>
+                            </div>
+                            <div class="spia-card spia-yellow">
+                                <div class="spia-icon">🟡</div>
+                                <div class="spia-content">
+                                    <h4>Spia carburante</h4>
+                                    <p>Riserva. Circa 50-80 km di autonomia (varia da auto a auto).</p>
+                                </div>
+                            </div>
+                            <div class="spia-card spia-blue">
+                                <div class="spia-icon">🔵</div>
+                                <div class="spia-content">
+                                    <h4>Spia abbaglianti</h4>
+                                    <p>Fari abbaglianti accesi. Spegnili quando incroci altri veicoli.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <div class="page-navigation">
+                        <a href="patente-pratica.html" class="page-nav-btn prev">
+                            <i class="fas fa-arrow-left"></i>
+                            <div><span>Precedente</span><strong>Patente: Pratica</strong></div>
+                        </a>
+                        <a href="manutenzione.html" class="page-nav-btn next">
+                            <div><span>Prossimo</span><strong>Manutenzione</strong></div>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer"><div class="container"><div class="footer-bottom"><p>&copy; 2024 Newborn Pilot.</p></div></div></footer>
+    <button class="back-to-top" id="backToTop"><i class="fas fa-chevron-up"></i></button>
+    <script src="js/main.js"></script>
+</body>
+</html>

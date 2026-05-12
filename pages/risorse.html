@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Risorse e Strumenti — Newborn Pilot</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/risorse.css">
+
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="../index.php" class="nav-logo"><i class="fas fa-car-side"></i><span>Newborn<strong>Pilot</strong></span></a>
+            <div class="nav-menu" id="navMenu">
+                <a href="../index.php" class="nav-link">Home</a>
+                <div class="nav-dropdown">
+                    <a href="#" class="nav-link dropdown-toggle">Patente <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="patente-teoria.html"><i class="fas fa-book"></i> Teoria</a>
+                        <a href="patente-pratica.html"><i class="fas fa-car"></i> Pratica</a>
+                    </div>
+                </div>
+                <a href="come-funziona-auto.html" class="nav-link">Come Funziona l'Auto</a>
+                <a href="manutenzione.html" class="nav-link">Manutenzione</a>
+                <a href="tutorial.html" class="nav-link">Tutorial</a>
+                <a href="acquisto.php" class="nav-link">Acquisto Auto</a>
+                <a href="assicurazione.html" class="nav-link">Assicurazione</a>
+                <a href="multe.html" class="nav-link">Multe</a>
+                <a href="curiosita.html" class="nav-link">Curiosità</a>
+                <a href="risorse.html" class="nav-link active">Risorse</a>
+            </div>
+            <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
+        </div>
+    </nav>
+
+    <header class="page-hero">
+        <div class="page-hero-content">
+            <div class="breadcrumb"><a href="../index.php">Home</a><i class="fas fa-chevron-right"></i><span>Risorse</span></div>
+            <div class="page-hero-badge"><span class="section-number-badge">Sezione 10</span></div>
+            <h1><i class="fas fa-toolbox"></i> Risorse e <span class="gradient-text">Strumenti</span></h1>
+            <p>Tutto a portata di mano</p>
+        </div>
+    </header>
+
+    <main class="page-content">
+        <div class="container">
+            <div class="content-main" style="max-width:900px;margin:0 auto;">
+                <section class="content-section">
+                    <h2><span class="section-num">10.1</span> Documenti e normative scaricabili</h2>
+                    <div class="download-grid">
+                        <div class="download-card"><i class="fas fa-file-pdf"></i><h4>Codice della Strada</h4><p>Versione aggiornata e consultabile per argomento</p><span class="download-badge">PDF</span></div>
+                        <div class="download-card"><i class="fas fa-file-pdf"></i><h4>Manuale teoria patente B</h4><p>Riassunti per capitolo</p><span class="download-badge">PDF</span></div>
+                        <div class="download-card"><i class="fas fa-file-pdf"></i><h4>Checklist acquisto auto usata</h4><p>Lista stampabile da portare con te</p><span class="download-badge">PDF</span></div>
+                        <div class="download-card"><i class="fas fa-file-pdf"></i><h4>Checklist pre-viaggio</h4><p>Cosa controllare prima di partire</p><span class="download-badge">PDF</span></div>
+                        <div class="download-card"><i class="fas fa-file-image"></i><h4>Guida spie cruscotto</h4><p>Infografica scaricabile</p><span class="download-badge">IMG</span></div>
+                        <div class="download-card"><i class="fas fa-file-pdf"></i><h4>Tabella sanzioni e punti</h4><p>Sempre aggiornata</p><span class="download-badge">PDF</span></div>
+                    </div>
+                </section>
+
+                <section class="content-section">
+                    <h2><span class="section-num">10.2</span> Strumenti interattivi</h2>
+                    <div class="tools-grid">
+                        <div class="tool-card" id="configuratore">
+                            <div class="tool-icon"><i class="fas fa-wrench"></i></div>
+                            <h4>Configuratore Auto</h4>
+                            <p>Rispondi alle domande e scopri i modelli ideali per te.</p>
+                            <a href="acquisto.php#configuratore" class="btn btn-primary btn-sm">Usa lo strumento</a>
+                        </div>
+                        <div class="tool-card" id="comparatore">
+                            <div class="tool-icon"><i class="fas fa-shield-alt"></i></div>
+                            <h4>Comparatore Assicurazioni</h4>
+                            <p>Confronta preventivi in tempo reale.</p>
+                            <a href="assicurazione.html" class="btn btn-primary btn-sm">Vai alla sezione</a>
+                        </div>
+                        <div class="tool-card" id="quiz">
+                            <div class="tool-icon"><i class="fas fa-clipboard-check"></i></div>
+                            <h4>Quiz Patente</h4>
+                            <p>Esercitati con domande aggiornate al database ministeriale.</p>
+                            <a href="patente-teoria.html" class="btn btn-primary btn-sm">Inizia i quiz</a>
+                        </div>
+                        <div class="tool-card" id="calcolatore">
+                            <div class="tool-icon"><i class="fas fa-calculator"></i></div>
+                            <h4>Calcolatore Costi</h4>
+                            <p>Scopri quanto ti costa l'auto all'anno.</p>
+                            <a href="acquisto.php#costi-nascosti" class="btn btn-primary btn-sm">Calcola i costi</a>
+                        </div>
+                        <div class="tool-card">
+                            <div class="tool-icon"><i class="fas fa-bell"></i></div>
+                            <h4>Promemoria Scadenze</h4>
+                            <p>Revisione, assicurazione, bollo: non dimenticare più nulla.</p>
+                            <button class="btn btn-primary btn-sm" disabled>Prossimamente</button>
+                        </div>
+                        <div class="tool-card">
+                            <div class="tool-icon"><i class="fas fa-tags"></i></div>
+                            <h4>Verifica Valore Auto</h4>
+                            <p>Stima del valore di mercato della tua auto.</p>
+                            <button class="btn btn-primary btn-sm" disabled>Prossimamente</button>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="page-navigation">
+                    <a href="curiosita.html" class="page-nav-btn prev">
+                        <i class="fas fa-arrow-left"></i>
+                        <div><span>Precedente</span><strong>Curiosità</strong></div>
+                    </a>
+                    <a href="../index.php" class="page-nav-btn next">
+                        <div><span>Torna alla</span><strong>Home</strong></div>
+                        <i class="fas fa-home"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer"><div class="container"><div class="footer-bottom"><p>&copy; 2024 Newborn Pilot.</p></div></div></footer>
+    <button class="back-to-top" id="backToTop"><i class="fas fa-chevron-up"></i></button>
+    <script src="js/main.js"></script>
+</body>
+</html>

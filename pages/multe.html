@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multe e Sanzioni — Newborn Pilot</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/multe.css">
+
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="../index.php" class="nav-logo"><i class="fas fa-car-side"></i><span>Newborn<strong>Pilot</strong></span></a>
+            <div class="nav-menu" id="navMenu">
+                <a href="../index.php" class="nav-link">Home</a>
+                <div class="nav-dropdown">
+                    <a href="#" class="nav-link dropdown-toggle">Patente <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="patente-teoria.html"><i class="fas fa-book"></i> Teoria</a>
+                        <a href="patente-pratica.html"><i class="fas fa-car"></i> Pratica</a>
+                    </div>
+                </div>
+                <a href="come-funziona-auto.html" class="nav-link">Come Funziona l'Auto</a>
+                <a href="manutenzione.html" class="nav-link">Manutenzione</a>
+                <a href="tutorial.html" class="nav-link">Tutorial</a>
+                <a href="acquisto.php" class="nav-link">Acquisto Auto</a>
+                <a href="assicurazione.html" class="nav-link">Assicurazione</a>
+                <a href="multe.html" class="nav-link active">Multe</a>
+                <a href="curiosita.html" class="nav-link">Curiosità</a>
+                <a href="risorse.html" class="nav-link">Risorse</a>
+            </div>
+            <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
+        </div>
+    </nav>
+
+    <header class="page-hero">
+        <div class="page-hero-content">
+            <div class="breadcrumb"><a href="../index.php">Home</a><i class="fas fa-chevron-right"></i><span>Multe</span></div>
+            <div class="page-hero-badge"><span class="section-number-badge">Sezione 08</span></div>
+            <h1><i class="fas fa-gavel"></i> Multe e <span class="gradient-text">Sanzioni</span></h1>
+            <p>Come funzionano, come contestarle e come evitare sorprese</p>
+        </div>
+    </header>
+
+    <main class="page-content">
+        <div class="container">
+            <div class="content-layout">
+                <aside class="content-sidebar">
+                    <div class="sidebar-nav sticky-sidebar">
+                        <h4><i class="fas fa-bookmark"></i> Indice</h4>
+                        <ul>
+                            <li><a href="#tipologie" class="sidebar-link">8.1 — Tipologie di multa</a></li>
+                            <li><a href="#sconti" class="sidebar-link">8.2 — Sconti sulle multe</a></li>
+                            <li><a href="#contestare" class="sidebar-link">8.3 — Come contestare</a></li>
+                            <li><a href="#punti" class="sidebar-link">8.4 — Patente a punti</a></li>
+                        </ul>
+                    </div>
+                </aside>
+
+                <div class="content-main">
+                    <section id="tipologie" class="content-section">
+                        <h2><span class="section-num">8.1</span> Tipologie di multa più comuni</h2>
+                        <div class="table-responsive">
+                            <table class="styled-table">
+                                <thead><tr><th>Violazione</th><th>Sanzione</th><th>Punti</th></tr></thead>
+                                <tbody>
+                                    <tr><td>Eccesso velocità (fino a 10 km/h oltre)</td><td>42€ – 173€</td><td>—</td></tr>
+                                    <tr><td>Eccesso velocità (10-40 km/h oltre)</td><td>173€ – 694€</td><td>3-6</td></tr>
+                                    <tr><td>Eccesso velocità (40-60 km/h oltre)</td><td>543€ – 2.170€</td><td>6-10 + sospensione</td></tr>
+                                    <tr class="highlight-row"><td>Eccesso velocità (oltre 60 km/h)</td><td>845€ – 3.382€</td><td>10 + sospensione 6-12 mesi</td></tr>
+                                    <tr><td>Semaforo rosso</td><td>167€ – 665€</td><td>6</td></tr>
+                                    <tr><td>Uso telefono alla guida</td><td>165€ – 660€</td><td>5</td></tr>
+                                    <tr><td>Cintura di sicurezza</td><td>83€ – 332€</td><td>5</td></tr>
+                                    <tr><td>Sosta in divieto</td><td>42€ – 173€</td><td>—</td></tr>
+                                    <tr class="highlight-row"><td>Guida in stato di ebbrezza (0,5-0,8 g/l)</td><td>543€ – 2.170€</td><td>Sospensione 3-6 mesi</td></tr>
+                                    <tr class="highlight-row"><td>Guida in stato di ebbrezza (0,8-1,5 g/l)</td><td>800€ – 3.200€</td><td>Arresto + sospensione</td></tr>
+                                    <tr class="highlight-row"><td>Guida in stato di ebbrezza (oltre 1,5 g/l)</td><td>1.500€ – 6.000€</td><td>Arresto + confisca</td></tr>
+                                    <tr><td>Mancata revisione</td><td>173€ – 694€</td><td>Fermo veicolo</td></tr>
+                                    <tr class="highlight-row"><td>Mancata assicurazione</td><td>849€ – 3.396€</td><td>Sequestro veicolo</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="warning-box">
+                            <div class="warning-icon"><i class="fas fa-exclamation-triangle"></i></div>
+                            <div class="warning-content">
+                                <h4>Neopatentati</h4>
+                                <p>Nei primi 3 anni il limite di alcol è <strong>0,0 g/l</strong>. Le sanzioni in termini di punti sono <strong>raddoppiate</strong>.</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="sconti" class="content-section">
+                        <h2><span class="section-num">8.2</span> Come ottenere sconti sulle multe</h2>
+                        <div class="highlight-box highlight-green">
+                            <p><i class="fas fa-piggy-bank"></i> <strong>Pagamento entro 5 giorni:</strong> ottieni una riduzione del <strong>30%</strong> sull'importo minimo della sanzione. È il modo più semplice per risparmiare.</p>
+                        </div>
+                    </section>
+
+                    <section id="contestare" class="content-section">
+                        <h2><span class="section-num">8.3</span> Multe emesse erroneamente: come contestarle</h2>
+                        <h3>Motivi legittimi di contestazione:</h3>
+                        <ul class="detail-list styled">
+                            <li>L'auto non era tua al momento della violazione</li>
+                            <li>Autovelox non omologato o non tarato</li>
+                            <li>Segnaletica assente o non visibile</li>
+                            <li>Errore nei dati (targa, data, luogo)</li>
+                            <li>Notifica oltre i 90 giorni dalla violazione</li>
+                        </ul>
+
+                        <div class="comparison-grid">
+                            <div class="comparison-card">
+                                <div class="comparison-header autoscuola"><h3>Ricorso al Prefetto</h3></div>
+                                <div class="comparison-body">
+                                    <ul class="feature-list">
+                                        <li><i class="fas fa-clock"></i> Entro <strong>60 giorni</strong></li>
+                                        <li><i class="fas fa-euro-sign"></i> <strong>Gratuito</strong></li>
+                                        <li><i class="fas fa-exclamation"></i> Se rigettato, l'importo <strong>raddoppia</strong></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="comparison-card">
+                                <div class="comparison-header privatista"><h3>Ricorso al Giudice di Pace</h3></div>
+                                <div class="comparison-body">
+                                    <ul class="feature-list">
+                                        <li><i class="fas fa-clock"></i> Entro <strong>30 giorni</strong></li>
+                                        <li><i class="fas fa-euro-sign"></i> Costa circa <strong>43€</strong></li>
+                                        <li><i class="fas fa-check"></i> Non rischi il <strong>raddoppio</strong></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="punti" class="content-section">
+                        <h2><span class="section-num">8.4</span> La patente a punti</h2>
+                        <div class="key-facts">
+                            <div class="fact"><i class="fas fa-play"></i><div>Ogni patente parte con <strong>20 punti</strong></div></div>
+                            <div class="fact"><i class="fas fa-minus"></i><div>Violazioni gravi: decurtazione da <strong>1 a 10 punti</strong></div></div>
+                            <div class="fact"><i class="fas fa-ban"></i><div>0 punti = <strong>revisione obbligatoria</strong> (rifare l'esame)</div></div>
+                            <div class="fact"><i class="fas fa-plus"></i><div>2 anni senza violazioni = <strong>recupero punti</strong></div></div>
+                            <div class="fact"><i class="fas fa-graduation-cap"></i><div>Corso di recupero = <strong>+6 punti</strong></div></div>
+                            <div class="fact"><i class="fas fa-globe"></i><div>Verifica saldo: <strong>Portale dell'Automobilista</strong> o 848.782.782</div></div>
+                        </div>
+                    </section>
+
+                    <div class="page-navigation">
+                        <a href="assicurazione.html" class="page-nav-btn prev">
+                            <i class="fas fa-arrow-left"></i>
+                            <div><span>Precedente</span><strong>Assicurazione</strong></div>
+                        </a>
+                        <a href="curiosita.html" class="page-nav-btn next">
+                            <div><span>Prossimo</span><strong>Curiosità</strong></div>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer"><div class="container"><div class="footer-bottom"><p>&copy; 2024 Newborn Pilot.</p></div></div></footer>
+    <button class="back-to-top" id="backToTop"><i class="fas fa-chevron-up"></i></button>
+    <script src="js/main.js"></script>
+</body>
+</html>
